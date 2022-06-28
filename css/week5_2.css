@@ -1,0 +1,51 @@
+/* for extra small */
+body{
+    background-color: red;
+}
+.box1{
+    background-color:green;
+    height: 300px;
+    width:100%
+}
+.box2{
+    background-color:yellow;
+    height: 300px;
+    width:100%
+}
+img{
+    width:100%;
+    height:180px;
+}
+/* start from small device to large */
+@media only screen and (min-width:600px){
+    body{
+        background-color: blue;
+    }
+    .box1{
+        float:left;
+        width:50%;
+    }
+    .box2{
+        padding-left:20px;
+        float:left;
+        width:40%;
+    }
+    img{
+        display:none;
+        float:left;
+        width:50%;
+    }
+    p{
+        width:45%;
+        float:left;
+        margin:10px;
+    }
+
+}
+@media only screen and (max-width:800px)
+{
+    .box1,.box2{
+        height:600px;
+    }
+    
+}

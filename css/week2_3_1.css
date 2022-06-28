@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+@font-face {
+    font-family: 'myfont';
+    src: url('../fonts/Tapestry/Tapestry-Regular.ttf');
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    font-style: italic;
+    color:blue;
+    text-decoration: underline dotted red;
+    text-transform: capitalize;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 50%;
+    
+}
+h3{
+    font-family: 'myfont';
+    text-decoration: double;
+    letter-spacing: 5px;
+}
+a{
+    text-decoration: none;
+}

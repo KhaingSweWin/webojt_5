@@ -1,0 +1,20 @@
+/* External Sytel */
+
+h1{
+    color:chocolate;
+}
+h2{
+    color:green;
+}
+ul  li{
+    color:red;
+}
+ol>li{
+    color:green
+}
+div>p{
+    color:red;
+}
+div>div>p{
+    color:violet;
+}

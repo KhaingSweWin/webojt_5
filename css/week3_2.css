@@ -1,0 +1,50 @@
+/*img{
+    float:left;
+}*/
+body{
+    background-color: aquamarine;
+    margin:0px;
+    
+}
+.row{
+    overflow:hidden;
+    clear: both;
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding-left:100px;
+    padding-right:100px;
+}
+.col1{
+    width:30%;
+    height:200px;
+    float:left;
+    border:2px solid black;  
+    margin:10px;  
+}
+.row>.second{
+    width:60%;
+    height:200px;
+    border:2px solid black;
+}
+.col2{
+    width:60%;
+    height:200px;
+    border:2px solid black;
+    float:right;
+}
+
+.col3{
+    clear:both;
+
+}
+
+.col{
+    width:33%;
+   
+    height:200px;
+    float:left;
+    
+}
+.innermost{
+    padding:30px 30px 30px 0px;
+}

@@ -1,0 +1,8 @@
+.accordion-button::after{
+    
+    background-image: url('../fonts/fontawesome/svgs/brands/accessible-icon.svg') !important;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    color: white;
+
+    }

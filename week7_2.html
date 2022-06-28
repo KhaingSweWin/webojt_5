@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/week7_2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="accordion" id="parent">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-warning text-light" data-bs-toggle="collapse" data-bs-target="#myitem1">
+                                Item 1
+                            </button>
+                        </h2>
+                        <div id="myitem1" class="collapse accordion-collapse show" data-bs-parent="#parent">
+                            <div class="accordion-body">
+                                <h2>Item Heading</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, possimus. Doloribus rem quo perspiciatis possimus numquam. Voluptatibus, necessitatibus. Molestias repellat suscipit molestiae accusantium totam est veritatis accusamus reiciendis hic voluptatem!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#myitem2">
+                                Item 2
+                            </button>
+                        </h2>
+                        <div id="myitem2" class="collapse accordion-collapse" data-bs-parent="#parent">
+                            <div class="accordion-body">
+                                <h2>Item Heading</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, possimus. Doloribus rem quo perspiciatis possimus numquam. Voluptatibus, necessitatibus. Molestias repellat suscipit molestiae accusantium totam est veritatis accusamus reiciendis hic voluptatem!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button">
+                                Item 3
+                            </button>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-target="#research" data-bs-toggle="tab"> Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-target="#members" data-bs-toggle="tab"> Faculty Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-target="#news" data-bs-toggle="tab"> News</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="col-md-10">
+                <div class="tab-content">
+                    <div class="tab-pane show active" id="research">
+                        Research
+                    </div>
+                    <div class="tab-pane" id="members">
+                        Faculty Members
+                    </div>
+                    <div class="tab-pane" id="news">
+                        News
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="btn-group">
+                <button class="btn btn-primary"> Login </button>
+                <button class="btn btn-success"> Login </button>
+            </div>
+            <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
+  </div>
+</div>
+        </div>
+    </div>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/week7_1.js"></script>
+</body>
+</html>

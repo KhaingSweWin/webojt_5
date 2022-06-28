@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="fonts/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/week6_2.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">Bootstrap</a>
+                <button class="navbar-toggler" data-bs-target="#mymenu" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mymenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link"><i class="fa-solid fa-home" id="home"></i>Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="submenu1" data-bs-toggle="dropdown">Products</a>
+                            <ul class="dropdown-menu" aria-labelledby="submenu1">
+                                <li><a class="dropdown-item">Product 1</a></li>
+                                <li><a class="dropdown-item">Product 2</a></li>
+                                <li><a class="dropdown-item">Product 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"><i class="fa-solid fa-users"></i>Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Contacts</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link">Login</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link">register</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </nav>
+
+        <div class="carousel slide" id="myslide">
+            <div class="carousel-indicators">
+                <div class="active" data-bs-target="#myslide" data-bs-slide-to="0"></div>
+                <div data-bs-target="#myslide"  data-bs-slide-to="1"></div>
+                <div data-bs-target="#myslide"  data-bs-slide-to="2"></div>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/event2.jpg" class="w-100" height="600px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Slide 1</h2>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="image/event1.png" class="w-100 " height="600px">
+                    <div class="carousel-caption">
+                        <h2>Slide 2</h2>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="image/event2.jpg" class="w-100 " height="600px">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#myslide" data-bs-slide="prev">
+            <span id="icon1">&lt;</span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#myslide" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-md-3">
+                    <div class="card">
+                       
+                        <img src="image/event1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Item1</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo cum facere amet doloremque! Autem praesentium, aperiam eos ab odio maiores libero rem veniam voluptatibus qui vel iure in aspernatur excepturi!</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                       
+                        <img src="image/event1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Item1</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo cum facere amet doloremque! Autem praesentium, aperiam eos ab odio maiores libero rem veniam voluptatibus qui vel iure in aspernatur excepturi!</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="card-footer d-flex justify-space-between">
+                            <p ><i class="fa-solid fa-users"></i>Uploaded By Admin</p>
+                            <p ><i class="fa-solid fa-users"></i>Time</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                       
+                        <img src="image/event1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Item1</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo cum facere amet doloremque! Autem praesentium, aperiam eos ab odio maiores libero rem veniam voluptatibus qui vel iure in aspernatur excepturi!</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                       
+                        <img src="image/event1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Item1</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo cum facere amet doloremque! Autem praesentium, aperiam eos ab odio maiores libero rem veniam voluptatibus qui vel iure in aspernatur excepturi!</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="fonts/fontawesome/js/all.min.js"></script>
+    
+    
+</body>
+</html>

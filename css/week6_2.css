@@ -1,0 +1,16 @@
+#home{
+    color:red;
+}
+.carousel-indicators div{
+    width: 20px;
+    height: 20px !important;
+    border-radius: 50%;
+    background-color: blue !important;
+}
+.carousel-control-prev-icon{
+    background-color: blue !important;
+}
+#icon1{
+    font-size: 20px;
+    color:red;
+}

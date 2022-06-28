@@ -1,0 +1,16 @@
+.even{
+    height: 300px;
+    background-color: beige;
+    color:navy;
+}
+.odd{
+    height:300px;
+    background-color: navy;
+    color:beige;
+}
+.odditem{
+    color:red;
+}
+.last{
+    background-color: red;
+}

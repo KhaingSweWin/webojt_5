@@ -1,0 +1,6 @@
+.itemodd:hover{
+    background-color: red;
+}
+.itemeven:hover{
+    background-color: yellow;
+}
